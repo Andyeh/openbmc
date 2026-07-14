@@ -1,0 +1,346 @@
+{
+    "Name": "RMC Leak Sensor Board",
+    "Type": "Board",
+    "Probe": "TRUE",
+    "Exposes": [
+        {
+            "Name": "Leak_Sensor_0",
+            "Type": "LeakSensor",
+            "Bus": 5,
+            "Address": "0x28",
+            "ChipSelect": 0,
+            "Channel": 1,
+            "Index": 0,
+            "Backend": "mock",
+            "PowerState": "Always",
+            "PollIntervalMs": 1000,
+            "Thresholds": [
+                {
+                    "Name": "lower warning",
+                    "Direction": "less than",
+                    "Severity": 0,
+                    "Value": 100000.0
+                },
+                {
+                    "Name": "lower critical",
+                    "Direction": "less than",
+                    "Severity": 1,
+                    "Value": 50000.0
+                }
+            ]
+        },
+        {
+            "Name": "Leak_Sensor_1",
+            "Type": "LeakSensor",
+            "Bus": 5,
+            "Address": "0x28",
+            "ChipSelect": 0,
+            "Channel": 2,
+            "Index": 1,
+            "Backend": "mock",
+            "PowerState": "Always",
+            "PollIntervalMs": 1000,
+            "Thresholds": [
+                {
+                    "Name": "lower warning",
+                    "Direction": "less than",
+                    "Severity": 0,
+                    "Value": 100000.0
+                },
+                {
+                    "Name": "lower critical",
+                    "Direction": "less than",
+                    "Severity": 1,
+                    "Value": 50000.0
+                }
+            ]
+        },
+        {
+            "Name": "Leak_Sensor_2",
+            "Type": "LeakSensor",
+            "Bus": 5,
+            "Address": "0x28",
+            "ChipSelect": 0,
+            "Channel": 3,
+            "Index": 2,
+            "Backend": "mock",
+            "PowerState": "Always",
+            "PollIntervalMs": 1000,
+            "Thresholds": [
+                {
+                    "Name": "lower warning",
+                    "Direction": "less than",
+                    "Severity": 0,
+                    "Value": 100000.0
+                },
+                {
+                    "Name": "lower critical",
+                    "Direction": "less than",
+                    "Severity": 1,
+                    "Value": 50000.0
+                }
+            ]
+        },
+        {
+            "Name": "Leak_Sensor_3",
+            "Type": "LeakSensor",
+            "Bus": 5,
+            "Address": "0x28",
+            "ChipSelect": 0,
+            "Channel": 4,
+            "Index": 3,
+            "Backend": "mock",
+            "PowerState": "Always",
+            "PollIntervalMs": 1000,
+            "Thresholds": [
+                {
+                    "Name": "lower warning",
+                    "Direction": "less than",
+                    "Severity": 0,
+                    "Value": 100000.0
+                },
+                {
+                    "Name": "lower critical",
+                    "Direction": "less than",
+                    "Severity": 1,
+                    "Value": 50000.0
+                }
+            ]
+        },
+        {
+            "Name": "Leak_Sensor_4",
+            "Type": "LeakSensor",
+            "Bus": 5,
+            "Address": "0x28",
+            "ChipSelect": 0,
+            "Channel": 5,
+            "Index": 4,
+            "Backend": "mock",
+            "PowerState": "Always",
+            "PollIntervalMs": 1000,
+            "Thresholds": [
+                {
+                    "Name": "lower warning",
+                    "Direction": "less than",
+                    "Severity": 0,
+                    "Value": 100000.0
+                },
+                {
+                    "Name": "lower critical",
+                    "Direction": "less than",
+                    "Severity": 1,
+                    "Value": 50000.0
+                }
+            ]
+        },
+        {
+            "Name": "Leak_Sensor_5",
+            "Type": "LeakSensor",
+            "Bus": 5,
+            "Address": "0x28",
+            "ChipSelect": 0,
+            "Channel": 6,
+            "Index": 5,
+            "Backend": "mock",
+            "PowerState": "Always",
+            "PollIntervalMs": 1000,
+            "Thresholds": [
+                {
+                    "Name": "lower warning",
+                    "Direction": "less than",
+                    "Severity": 0,
+                    "Value": 100000.0
+                },
+                {
+                    "Name": "lower critical",
+                    "Direction": "less than",
+                    "Severity": 1,
+                    "Value": 50000.0
+                }
+            ]
+        },
+        {
+            "Name": "Leak_Sensor_6",
+            "Type": "LeakSensor",
+            "Bus": 5,
+            "Address": "0x28",
+            "ChipSelect": 0,
+            "Channel": 7,
+            "Index": 6,
+            "Backend": "mock",
+            "PowerState": "Always",
+            "PollIntervalMs": 1000,
+            "Thresholds": [
+                {
+                    "Name": "lower warning",
+                    "Direction": "less than",
+                    "Severity": 0,
+                    "Value": 100000.0
+                },
+                {
+                    "Name": "lower critical",
+                    "Direction": "less than",
+                    "Severity": 1,
+                    "Value": 50000.0
+                }
+            ]
+        },
+        {
+            "Name": "Leak_Sensor_7",
+            "Type": "LeakSensor",
+            "Bus": 5,
+            "Address": "0x28",
+            "ChipSelect": 0,
+            "Channel": 8,
+            "Index": 7,
+            "Backend": "mock",
+            "PowerState": "Always",
+            "PollIntervalMs": 1000,
+            "Thresholds": [
+                {
+                    "Name": "lower warning",
+                    "Direction": "less than",
+                    "Severity": 0,
+                    "Value": 100000.0
+                },
+                {
+                    "Name": "lower critical",
+                    "Direction": "less than",
+                    "Severity": 1,
+                    "Value": 50000.0
+                }
+            ]
+        },
+        {
+            "Name": "Leak_Sensor_8",
+            "Type": "LeakSensor",
+            "Bus": 5,
+            "Address": "0x28",
+            "ChipSelect": 0,
+            "Channel": 9,
+            "Index": 8,
+            "Backend": "mock",
+            "PowerState": "Always",
+            "PollIntervalMs": 1000,
+            "Thresholds": [
+                {
+                    "Name": "lower warning",
+                    "Direction": "less than",
+                    "Severity": 0,
+                    "Value": 100000.0
+                },
+                {
+                    "Name": "lower critical",
+                    "Direction": "less than",
+                    "Severity": 1,
+                    "Value": 50000.0
+                }
+            ]
+        },
+        {
+            "Name": "Leak_Sensor_9",
+            "Type": "LeakSensor",
+            "Bus": 5,
+            "Address": "0x28",
+            "ChipSelect": 1,
+            "Channel": 1,
+            "Index": 9,
+            "Backend": "mock",
+            "PowerState": "Always",
+            "PollIntervalMs": 1000,
+            "Thresholds": [
+                {
+                    "Name": "lower warning",
+                    "Direction": "less than",
+                    "Severity": 0,
+                    "Value": 100000.0
+                },
+                {
+                    "Name": "lower critical",
+                    "Direction": "less than",
+                    "Severity": 1,
+                    "Value": 50000.0
+                }
+            ]
+        },
+        {
+            "Name": "Leak_Sensor_10",
+            "Type": "LeakSensor",
+            "Bus": 5,
+            "Address": "0x28",
+            "ChipSelect": 1,
+            "Channel": 2,
+            "Index": 10,
+            "Backend": "mock",
+            "PowerState": "Always",
+            "PollIntervalMs": 1000,
+            "Thresholds": [
+                {
+                    "Name": "lower warning",
+                    "Direction": "less than",
+                    "Severity": 0,
+                    "Value": 100000.0
+                },
+                {
+                    "Name": "lower critical",
+                    "Direction": "less than",
+                    "Severity": 1,
+                    "Value": 50000.0
+                }
+            ]
+        },
+        {
+            "Name": "Leak_Sensor_11",
+            "Type": "LeakSensor",
+            "Bus": 5,
+            "Address": "0x28",
+            "ChipSelect": 1,
+            "Channel": 3,
+            "Index": 11,
+            "Backend": "mock",
+            "PowerState": "Always",
+            "PollIntervalMs": 1000,
+            "Thresholds": [
+                {
+                    "Name": "lower warning",
+                    "Direction": "less than",
+                    "Severity": 0,
+                    "Value": 100000.0
+                },
+                {
+                    "Name": "lower critical",
+                    "Direction": "less than",
+                    "Severity": 1,
+                    "Value": 50000.0
+                }
+            ]
+        },
+        {
+            "Name": "Leak_Sensor_Spare",
+            "Type": "LeakSensor",
+            "Bus": 5,
+            "Address": "0x28",
+            "ChipSelect": 1,
+            "Channel": 4,
+            "Index": 12,
+            "Backend": "mock",
+            "PowerState": "Always",
+            "PollIntervalMs": 1000,
+            "Thresholds": [
+                {
+                    "Name": "lower warning",
+                    "Direction": "less than",
+                    "Severity": 0,
+                    "Value": 100000.0
+                },
+                {
+                    "Name": "lower critical",
+                    "Direction": "less than",
+                    "Severity": 1,
+                    "Value": 50000.0
+                }
+            ],
+            "Disabled": true
+        }
+    ]
+}
